@@ -1,0 +1,108 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 #00000033;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    background: #EDF5E1;
+    width: 1024px;
+    margin: 2rem auto;
+    border-radius: 0 25px 0 25px;  
+}
+
+.book-thumbnail {
+    border-radius: 0 25px 0 25px; 
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-vertical > p {
+    padding-right : 10px;
+    padding-top: 20px;  
+    letter-spacing: 1px;
+    width: 430px;
+
+}
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #00000033;
+}
+
+.col-2 {
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem; 
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.read-more-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 8px;
+    float: right;
+    letter-spacing: 3px;
+    font-size: 14px; 
+}
+
+.read-more-btn:hover {
+    background-color: #555555;
+    color: white;
+    letter-spacing: 3px;   
+}
+
+.header-search {
+    display: flex;
+    direction: row;
+    justify-content: center;
+    margin-top: 40px; 
+    
+}
+
+.input-text {
+    padding: 15px;
+    border-radius: 40px 0px 0px 40px;
+    border: 1px solid #c7bdbd;
+    width: 400px;
+    font-size: 1em;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 #00000033;
+}
+
+.search-btn {
+    background: #501b1d;
+    color: #FFF;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    padding: 15px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 #0000007a;
+}
+
+.input-text:focus {
+    border: 1px solid #c7bdbd;
+}
+
+label {
+    color: #501b1d;
+    border-left: 3px solid #501b1d;
+    padding: 10px; 
+    font-weight: bold; 
+}
